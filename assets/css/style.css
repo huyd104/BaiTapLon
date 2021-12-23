@@ -27,7 +27,8 @@
 
 #main {
   margin-top: 75px;
-  height: 5000px;
+  height: 300px;
+
 }
 #main .search {
   margin-top: 50px;
@@ -49,20 +50,17 @@
   margin-left: 50px;
 }
 .card1 {
-  display: flex;
   align-items: center;
+  display: flex;
+  justify-content: space-between;
   margin-left: 10px;
 }
-.card2 {
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
+.card1 >img{
+  width: 248px;
+  height:184px ;
+
 }
-.card3 {
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
-}
+
 
 .fas {
   color: blue;
@@ -70,3 +68,5 @@
 .card-text0 {
   color: red;
 }
+
+

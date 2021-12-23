@@ -23,7 +23,11 @@
             }
             
         }else{
+<<<<<<< HEAD
             $error = "Bạn nhập thông tin Email hoặc mật khẩu chưa chính xácc";
+=======
+            $error = "Bạn nhập thông tin Email hoặc mật khẩu chưa chính xác";
+>>>>>>> 8e27a39530fd2613fa605570fa796efe77f3792d
             header("location: signin.php?error=$error");
            
 
