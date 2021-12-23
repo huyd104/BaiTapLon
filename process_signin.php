@@ -23,7 +23,7 @@
             }
             
         }else{
-            $error = "Bạn nhập thông tin Email hoặc mật khẩu chưa chính xác";
+            $error = "Bạn nhập thông tin Email hoặc mật khẩu chưa chính xácc";
             header("location: signin.php?error=$error");
            
 
