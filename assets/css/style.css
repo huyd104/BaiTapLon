@@ -54,7 +54,10 @@
   justify-content: space-between;
   margin-left: 10px;
 }
-
+.card1 > img {
+  width: 248px;
+  height: 165px;
+}
 .fas {
   color: blue;
 }
