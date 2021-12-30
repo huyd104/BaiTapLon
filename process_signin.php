@@ -1,5 +1,5 @@
 <?php
-   
+   session_start();
     if(isset($_POST['btnsignin'])){
 
         $email = $_POST['txtemail'];
@@ -16,18 +16,14 @@
         if(mysqli_num_rows($result) > 0){
             while($row = mysqli_fetch_assoc($result)){
                 if(password_verify($pass,$row['Matkhau'])){
-
-                    header("location: index.html"); 
+                    $_SESSION['login'] = $email;
+                    header("location: indexhotel.php"); 
 
                 }
             }
             
         }else{
-<<<<<<< HEAD
-            $error = "Bạn nhập thông tin Email hoặc mật khẩu chưa chính xácc";
-=======
             $error = "Bạn nhập thông tin Email hoặc mật khẩu chưa chính xác";
->>>>>>> 8e27a39530fd2613fa605570fa796efe77f3792d
             header("location: signin.php?error=$error");
            
 
