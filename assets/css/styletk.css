@@ -1,0 +1,113 @@
+#header {
+    height: 64px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  body {
+    background-color: rgb(252, 249, 249);
+  }
+  #header .mid span {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+  }
+  
+  .mid .iconmid:hover {
+    background-color: rgb(250, 246, 246);
+  }
+  #header img {
+    height: 40px;
+    cursor: pointer;
+  }
+  #header .right span {
+    margin-right: 15px;
+    cursor: pointer;
+    color: rgb(57, 86, 173);
+  }
+  #header .mid .material-icons {
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  
+    color: #fff;
+  }
+  #righttop {
+    background-color: rgb(32, 172, 236);
+    color: #fff;
+  }
+  #righttop button {
+    background-color: orange;
+  }
+  #righttop input {
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    background-color: rgb(32, 172, 236);
+    color: #fff;
+  }
+  #righttop .op {
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    background-color: rgb(32, 172, 236);
+    color: #fff;
+  }
+  
+  .rightmid1 {
+    border-radius: 15px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  .rightmid1 input {
+    border: 2px;
+  
+    width: 100%;
+    height: 50px;
+  }
+  .rightmid1 .material-icons {
+    font-size: 35px;
+  }
+  .rightmid2 {
+    margin-top: 25px;
+    background-color: #fff;
+    margin-bottom: 25px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  .rightmid2 .material-icons {
+    color: orange;
+  }
+  .form-check {
+    margin-bottom: 10px;
+  }
+  .rightmid3 {
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  .back {
+    display: flex;
+    text-decoration: none;
+  }
+  #righttop .search input {
+    cursor: text;
+  }
+  #righttop .search button {
+    border-radius: 25px;
+  }
+  /* .navbar {
+      overflow: hidden;
+      
+      
+      top: 0;
+      width: 100%;
+    } */
+  
+  /* ---sign in-- */
+  .sea {
+    margin-top: 120px;
+  }
+  

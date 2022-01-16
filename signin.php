@@ -1,5 +1,5 @@
 <?php
-include("template/header.php");
+include("template/headersi.php");
 ?>
 <body>
     <style>

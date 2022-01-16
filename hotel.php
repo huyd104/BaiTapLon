@@ -68,7 +68,7 @@
         </div>
 
         <div class="div5 d-flex flex-column">
-          <button class="btn btn-primary d-flex justify-content-center">Tìm Kiếm</button>
+          <a href="timkiem.php" class="d-flex justify-content-center"><button class="btn btn-primary " >Tìm Kiếm</button></a>
           <a style="text-decoration: none" href="">Tra cứu đặt phòng</a>
         </div>
       </div>
